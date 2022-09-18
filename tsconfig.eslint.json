@@ -1,0 +1,14 @@
+{
+    "extends": "./tsconfig.json",
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "./**/*",
+        "src",
+        "test",
+        "note",
+        "webpack",
+        "test/wdio.conf.ts"
+    ]
+}

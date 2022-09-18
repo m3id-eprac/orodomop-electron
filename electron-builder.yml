@@ -1,0 +1,15 @@
+asar: true
+appId: com.orodomop.demo
+copyright: Hamburger
+productName: orodomop
+# beforePack: ./builder/beforePackContext.js
+# afterPack: ./builder/afterBuildHook.js
+files:
+    - dist
+    - dist/build/
+extraFiles:
+    - from: dist/data/
+      to: data/
+      filter: -**/*
+mac:
+    target: dmg
